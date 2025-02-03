@@ -45,7 +45,7 @@ namespace BMICalculator
                 }
                 else
                 {
-                    category = "Obesity";
+                    category = "Overweight";
                 }
 
 
