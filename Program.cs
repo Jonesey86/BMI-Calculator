@@ -19,16 +19,16 @@ namespace BMICalculator
             Console.WriteLine();
             while (true)
             {
-                // Get weight and height
+                // Get weight and height input from user
                 double weight = GetValidInput("Enter weight in kilogram: ");
                 Console.WriteLine("Enter your height in centimeters: ");
                 double heightInCm = Convert.ToDouble(Console.ReadLine());
                 double height = heightInCm / 100;
 
-                // Calculate BMI 
+                // Calculate BMI input from user
                 double bmi = weight / (height * height);
 
-                // BMI Category
+                // BMI Categories 
                 string category;
                 if (bmi < 18.5)
                 {
@@ -49,7 +49,7 @@ namespace BMICalculator
                 }
 
 
-                // Display result
+                // Display results from input in BMI Calculator
                 Console.WriteLine($"Your BMI is {bmi:F2}. You are classified as: {category}");
 
                 //exit or continue
