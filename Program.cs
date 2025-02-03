@@ -53,7 +53,7 @@ namespace BMICalculator
                 Console.WriteLine($"Your BMI is {bmi:F2}. You are classified as: {category}");
 
                 //exit or continue
-                Console.WriteLine("\n Do you want to calculate another BMI? press 'Enter' to continue or 'exit' to quit: ");
+                Console.WriteLine("\n Do you want to calculate another BMI? press 'Enter' to continue or write 'exit' to quit: ");
                 string userInput = Console.ReadLine().Trim().ToLower();
                 if (userInput == "exit")
                 {
