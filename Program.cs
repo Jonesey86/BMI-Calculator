@@ -32,7 +32,7 @@ namespace BMICalculator
                 string category;
                 if (bmi < 18.5)
                 {
-                    category = "Underweight";
+                    category = "Slightly Underweight";
 
                 }
                 else if (bmi < 25)
