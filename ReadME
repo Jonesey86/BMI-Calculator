@@ -1,3 +1,9 @@
 * This is a BMI Calculator, That will calculate you BMI from the input it recieves in the terminal.
+
 * Once you open the terminal you will be asked to input certain information.
+
 * You will be asked to input your height in cm and weight in kilograms.
+
+* With the information recieved the calculator will be able to determind from the following groups you
+will be placed in.
+
