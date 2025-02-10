@@ -56,7 +56,7 @@ namespace BMICalculator
 
                 //options to exit and or continue
                 Console.WriteLine("\n Do you want to calculate another BMI? press 'Enter' to continue or write 'exit' to quit: ");
-                string? userInput = Console.ReadLine().Trim().ToLower();
+                string userInput = Console.ReadLine().Trim().ToLower();
                 if (userInput == "exit")
                 {
                     Console.WriteLine("Thank you for using the BMI Calculator.");
