@@ -28,7 +28,7 @@ namespace BMICalculator
                 // Calculate BMI input from user
                 double bmi = weight / (height * height);
 
-                // BMI Categories // There are 4 different categories you  can be placed into:
+                // BMI Categories // There are 4 different categories you can be placed into:
                 // (Slighty Underweigt,Normal Weight,Slightly overweight,Overweight)
                 
                 string category;
@@ -51,10 +51,10 @@ namespace BMICalculator
                 }
 
 
-                // Display results from input in BMI Calculator
+                //  Display results from input in BMI Calculator
                 Console.WriteLine($"Your BMI is {bmi:F2}. You are classified as: {category}");
 
-                //options to exit and or continue
+                //  Options to exit and or continue
                 Console.WriteLine("\n Do you want to calculate another BMI? press 'Enter' to continue or write 'exit' to quit: ");
                 string userInput = Console.ReadLine().Trim().ToLower();
                 if (userInput == "exit")
