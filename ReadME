@@ -11,6 +11,8 @@ will be placed in according to the information you have input.
 
 *Slighty Underweight-Normal Weight-Slightly Overweight-Overweight
 
+* You can then decide to calculate again or you can exit the the BMI Calculator.
+
 Language used: C# 
 
 * I've also added images so you can see a preview how it looks like and runs in the termianal.
